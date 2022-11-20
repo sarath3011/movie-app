@@ -1,0 +1,32 @@
+@import"../../common/color.scss";
+.header{
+background-color:$secondary-color;
+height:72px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px;
+}
+.user-image,.user-image img{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo>h1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 500;
+margin: 12px 10px 0px;
+
+}
+.logo-img{
+    height: 60px;
+   
+   }
